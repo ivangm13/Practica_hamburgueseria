@@ -364,6 +364,37 @@ main section .columna:hover .marco, main section .columna:hover img{
 }
 
 /* BLOG*/
+
+main h1{
+    margin-top: 2em;
+    color: black;
+    font-family: var(--fuenteSecundaria);
+    font-size: 2em;
+    text-align: center;
+    }   
+    main h1 span{
+        color: var(--color-principal);
+    }
+    
+    main  .underline{
+        position: relative;
+        width: 5em;
+        margin: 0 auto;
+        color: var(--color-principal);
+        font-weight: bold;
+        margin-bottom: 2em;
+    }
+    main  .underline hr{
+        border-color: var(--color-principal);
+        position: absolute;
+        top: -0.063em;
+        width: 100%;
+      
+    }
+    main  .underline span{
+        text-align: center;
+        display: block;
+    }
 main section .row .fotoBlog{
     position: relative;
     
@@ -412,3 +443,5 @@ main section .blogg article{
     }
 
 }
+
+/* CARTA */
