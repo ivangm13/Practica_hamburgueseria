@@ -362,3 +362,53 @@ main section .columna:hover .marco, main section .columna:hover img{
     }
     
 }
+
+/* BLOG*/
+main section .row .fotoBlog{
+    position: relative;
+    
+}
+main section .row .cuadroFecha{
+position: absolute;
+box-sizing: border-box;
+top: 0;
+left: 0;
+width: 4em;
+height: 4em;
+background-color: var(--color-principal);
+opacity: 80%;
+}
+main section .row .cuadroFecha>p{
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px 5px;
+}
+main section .row h3{
+   font-size: 1.2em;
+    
+}
+main section .row h4{
+    color: var(--color-principal);
+    font-weight: 700;
+    padding-bottom: 1em;
+    
+}
+main section .blogg{
+    display: flex;
+    flex-wrap: wrap;
+}
+main section .blogg article{
+    padding-right: 1em;
+    width: 50%;
+    border: 0px;
+}
+@media (min-width:62.750em){
+    main section .blogg article{
+        padding-right: 1em;
+        width: 33.33%;
+        
+    }
+
+}
