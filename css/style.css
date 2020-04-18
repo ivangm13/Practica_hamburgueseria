@@ -447,12 +447,22 @@ main section .blogg article{
 /* CARTA */
 .carta{
     background-color: var(--color-secundario);
+    margin-bottom: 5em;
 }
 main .carta h1{
     color: white;
 }
 main .carta h3{
     color: white;
+}
+main .carta section .row .productos h3{
+    font-size: 0.84em;
+    
+}
+main .carta section .row p{
+    color: white;
+    font-size: 0.7em;
+    line-height: 20px;
     
 }
 
@@ -522,6 +532,9 @@ main .carta section article{
     border: 0px;
 
 }
+main .carta section article .enlace{
+    font-size: 0.65em;
+}
 main .carta section article div i{
     color: var(--color-principal);
     font-size: 1em;
@@ -540,14 +553,26 @@ main .carta section article div i{
         
     }
     
+    main .carta section article .enlace{
+        font-size: 1em;
+    }
+    main .carta section .row .productos h3{
+        font-size: 1.2em;
+        
+    }
+    main .carta section .row p{
+        color: white;
+        font-size: 0.8em;
+        
+    }
     main .carta section article{
-        width: 20%;
+        width: 21%;
         
         
     }
     main .carta section .productos{
         padding-left:1em;
-        width: 78%;
+        width: 77%;
         height: auto;
         
     }
