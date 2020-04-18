@@ -257,7 +257,7 @@ main section .underline{
     width: 5em;
     margin: 0 auto;
     color: var(--color-principal);
-    font-weight: bold;
+    font-weight: 700;
     margin-bottom: 2em;
 }
 main section .underline hr{
@@ -294,7 +294,7 @@ main section article h3{
     font-weight: 700;
     margin: 1em 0;
 }
-.enlace{
+.enlace{    
     text-decoration: none;
     color: var(--color-principal);
     display: block;
@@ -453,6 +453,7 @@ main .carta h1{
 }
 main .carta h3{
     color: white;
+    
 }
 
 main .carta .linea{
@@ -470,7 +471,8 @@ main .carta article{
 }
 main .carta article h3 span{
     color: var(--color-principal);
-    padding-left: 1em;
+    padding-left: 0.5em;
+    font-weight: 400;
 }
 
 main section ul li a{
@@ -478,6 +480,7 @@ main section ul li a{
     border-radius: 5px;
     text-decoration: none;
     padding: 0.5em;
+    margin-bottom: 0.5em;
     color: white;
 }
 main section ul li .activo{
@@ -508,26 +511,68 @@ main section ul li:hover{
     transition: 0.5s;
          
 }
-main .carta section article{
-    width: 90%;
+main .carta section .productos article{
+    width: 85%;
     padding: 0.5em;
-    margin: 1em 2em;
     border: 0px;
 }
-main .carta section article:first-child{
+main .carta section article{
     width: 100%;
     margin-left: 1em;
+    border: 0px;
 
+}
+main .carta section article div i{
+    color: var(--color-principal);
+    font-size: 1em;
+    border: 0px;
+    padding-left: 0em;
+   
 }
 
 @media(min-width:62.750em){
 
+   
+    main .carta section{
+        display: flex;
+        flex-wrap: wrap;
+        
+        
+    }
+    
     main .carta section article{
+        width: 20%;
+        
+        
+    }
+    main .carta section .productos{
+        padding-left:1em;
+        width: 78%;
+        height: auto;
+        
+    }
+    main .carta section .productos article{
+       display: flex;
+       flex-wrap: wrap;
+        
+    }
+    main .carta section .productos article .imagen{
+        width: 25%;
+        height: auto;
+        margin-top: 1em;
+        margin-right: 2em;
+    }
+    main .carta section .productos article .textos{
         width: 70%;
     }
-    main .carta section article:first-child{
-        width: 30%;
+     main .carta section article ul{
+         margin-bottom:5em;
+     } 
+
+    .subir{
+        display: none;
     }
+
 
 
 }
